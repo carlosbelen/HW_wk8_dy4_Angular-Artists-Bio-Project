@@ -1,0 +1,16 @@
+<section class="artists-section">
+    <div class="artists-container">
+
+        <div class="artist-column">
+            <h1>Artists</h1>
+
+            <div class="artists">
+                <div>
+                    <app-artist-card style="display:block; margin-bottom: 20px;" 
+                        [artist] = 'items' (xButtonClick) = "onDelete(items)"
+                        (cardClick) = "onCardClicked(items)"></app-artist-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

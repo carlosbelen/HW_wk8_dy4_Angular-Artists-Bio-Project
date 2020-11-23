@@ -1,0 +1,34 @@
+@import '../../main-styles.scss';
+
+.top-bar{
+    display: flex;
+    width: 100%;
+    height: 68px;
+    background: linear-gradient(75deg,rgb(214,180,247), rgb(173,203,231));
+
+    // Center all top bar information
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 18px;
+        font-family: 'Lato';
+        letter-spacing: 1px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $dark;
+    }
+}
+
+
+
+// Add Artist Section and Container Styles
+.add-artist-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .add-artist-container{
+        width: 680px;
+    }
+}
